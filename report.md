@@ -57,7 +57,7 @@ def scroll_once(scroll_step=300, scroll_pause_time=1):
 - Explanation: This function scrolls the web page by the specified scroll_step and then pauses to allow any new content to load.
 
 ** 2. Counting and Extracting Links:**
-```
+```python
 def get_count():
     parent_div = driver.find_element(By.ID, "root")
     inner_divs = parent_div.find_elements(By.CSS_SELECTOR, "div.sc-1mo3ldo-0.sc-hDgvsY.aecIx")
